@@ -1,17 +1,17 @@
-# myqr
+
 ## QR Code scanner for login hotspot MikroTik
 
-### Cara pakai
+### 
 
-1. Tambahkan button di login.html
+1. Copy and paste at login.html
 ```html
-<button onclick="window.location='https://laksa19.github.io/myqr';">QR Code</button>
+<button onclick="window.location='https://lupael.github.io/myqr/?hotspot=SpeedLinks';">QR Code</button>
 ```
-2. Tambahkan script berikut di MikroTik via Terminal.
+2. Paste following code in MikroTik via Terminal.
 ```
 /ip hotspot walled-garden ip
 
-add action=accept comment="Mikhmon QR Code Scanner" disabled=no dst-host=laksa19.github.io
+add action=accept comment="i4E QR Code Scanner" disabled=no dst-host=https://lupael.github.io
 ```
 
-### Powered by webqr.com
+### Powered by i4e.com.bd
